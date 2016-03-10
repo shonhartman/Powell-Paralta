@@ -1,0 +1,16 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font: 12px/1.35 helvetica_condensed,Arial,Helvetica,sans-serif;
+  color: $midgrey;
+  text-align: center;
+}
+
+.page {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  min-width: 1000px;
+  background-color: $red;
+}
