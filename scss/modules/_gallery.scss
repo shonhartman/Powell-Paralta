@@ -1,0 +1,19 @@
+.gallery {
+    width: 330px;
+    height: 350px;
+    background-image: url(../images/sk8er-1.png);
+    background-repeat: no-repeat;
+    background-size: 57em;
+    background-position: 7%;
+    margin: 0 auto;
+    border: 10px solid $white;
+    margin-top: 10px;
+}
+
+  h1 {
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 54%;
+
+  }

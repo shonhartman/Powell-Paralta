@@ -8,8 +8,8 @@
   margin: 0 auto;
   border: 10px solid $white;
   margin-top: 10px;
-  border-bottom: 3px;
-  border-bottom-color: $lightgrey;
+  border-bottom: 13px;
+  border-bottom-color: $red;
 
 }
 
@@ -19,6 +19,7 @@
 
   p {
     color: $midgrey;
+    line-height: 1.8em;
   }
 
   h3 {

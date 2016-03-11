@@ -13,6 +13,9 @@ body {
   min-width: 1000px;
   background-color: #FF0000; }
 
+h1 {
+  font-size: 3rem; }
+
 .page {
   background-color: #4c4c4c; }
 
@@ -83,15 +86,59 @@ body {
   margin: 0 auto;
   border: 10px solid #fff;
   margin-top: 10px;
-  border-bottom: 3px;
-  border-bottom-color: #666; }
+  border-bottom: 13px;
+  border-bottom-color: #FF0000; }
 
 small {
   color: #666; }
 
 p {
-  color: #4c4c4c; }
+  color: #4c4c4c;
+  line-height: 1.8em; }
 
 h3 {
   text-align: center;
   color: #FF0000; }
+
+.gallery {
+  width: 330px;
+  height: 350px;
+  background-image: url(../images/sk8er-1.png);
+  background-repeat: no-repeat;
+  background-size: 57em;
+  background-position: 7%;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  margin-top: 10px; }
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 54%; }
+
+.shop {
+  width: 330px;
+  height: 350px;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  margin-top: 10px; }
+
+li {
+  background-repeat: no-repeat;
+  float: left;
+  height: 262px;
+  width: 70px;
+  list-style: none;
+  margin-top: 28px;
+  padding: 12px; }
+
+li:first-child {
+  background-image: url(../images/sk8-1.png); }
+
+li:nth-child(2) {
+  background-image: url(../images/sk8-2.png); }
+
+li:nth-child(3) {
+  background-image: url(../images/sk8-10.png); }

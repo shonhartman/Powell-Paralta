@@ -1,0 +1,30 @@
+.shop {
+    width: 330px;
+    height: 350px;
+    background-color: $white;
+    margin: 0 auto;
+    border: 10px solid $white;
+    margin-top: 10px;
+}
+
+  li {
+    background-repeat: no-repeat;
+    float: left;
+    height: 262px;
+    width: 70px;
+    list-style: none;
+    margin-top: 28px;
+    padding: 12px;
+  }
+
+li:first-child {
+  background-image: url(../images/sk8-1.png);
+}
+
+li:nth-child(2) {
+  background-image: url(../images/sk8-2.png);
+}
+
+li:nth-child(3) {
+  background-image: url(../images/sk8-10.png);
+}
