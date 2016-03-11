@@ -1,48 +1,50 @@
 .header {
-  &--subscribe {
-    text-transform: uppercase;
-    text-shadow: 1em;
-    display: none;
-  }
-  &--social {
-    li {
-      // background-color: #000;
-      width: 60px;
-      height: 60px;
-      list-style: none;
-      border-bottom: 3px solid $lightgrey;
+
+  text-transform: uppercase;
+    &--subscribe {
+      text-shadow: 1em;
       display: none;
     }
-    li:first-child {
-      background-color: #455796;
+    &--social {
+      li {
+        // background-color: #000;
+        width: 60px;
+        height: 60px;
+        list-style: none;
+        border-bottom: 3px solid $lightgrey;
+        display: none;
+      }
+      li:first-child {
+        background-color: #455796;
+      }
+      li:nth-child(2) {
+        background-color: #CC8F32;
+      }
+      li:nth-child(3) {
+        background-color: #6A8DC7;
+      }
+      li:nth-child(4) {
+        background-color: $red;
+      }
     }
-    li:nth-child(2) {
-      background-color: #CC8F32;
-    }
-    li:nth-child(3) {
-      background-color: #6A8DC7;
-    }
-    li:nth-child(4) {
-      background-color: $red;
-    }
-  }
-  &--nav-bar {
-    position: absolute;
-    top: 0;
-    left: 73px;
-    background: $darkgrey;
-    color: $white;
-    font-size: 12px;
-    letter-spacing: 1px;
+    &--nav-bar {
+      position: fixed;
+      top: 0;
+      left: 73px;
+      background: $darkgrey;
+      color: $white;
+      font-size: 12px;
+      letter-spacing: 1px;
 
-  }
-    a {
-      color: $lightgrey;
-      display: block;
-      float: left;
-      margin-top: 22px;
-      padding: 0 25px 0 0;
     }
+      a {
+        color: $lightgrey;
+        display: block;
+        float: left;
+        margin-top: 22px;
+        padding: 0 25px 0 0;
+        text-decoration: none;
+      }
 }
 
 @media screen and (min-width: 600px) {}
