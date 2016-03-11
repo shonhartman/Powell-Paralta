@@ -1,6 +1,8 @@
 .header {
 
   text-transform: uppercase;
+  margin: 0 auto;
+
     &--subscribe {
       text-shadow: 1em;
       display: none;
@@ -30,12 +32,14 @@
     &--nav-bar {
       position: fixed;
       top: 0;
-      left: 73px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
       background: $darkgrey;
       color: $white;
       font-size: 12px;
       letter-spacing: 1px;
-
+      padding: 1em 20rem;
     }
       a {
         color: $lightgrey;
@@ -45,6 +49,10 @@
         padding: 0 25px 0 0;
         text-decoration: none;
       }
+
+    a:hover {
+      color: $white;
+    }
 }
 
 @media screen and (min-width: 600px) {}

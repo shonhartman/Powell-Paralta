@@ -13,14 +13,18 @@ body {
   min-width: 1000px;
   background-color: #FF0000; }
 
+.page {
+  background-color: #4c4c4c; }
+
 .header-container {
   height: 60px;
   width: 100%;
-  background-color: #4c4c4c;
-  color: #666; }
+  background-color: #666;
+  color: #fff; }
 
 .header {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0 auto; }
   .header--subscribe {
     text-shadow: 1em;
     display: none; }
@@ -41,11 +45,14 @@ body {
   .header--nav-bar {
     position: fixed;
     top: 0;
-    left: 73px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
     background: #333;
     color: #fff;
     font-size: 12px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    padding: 1em 20rem; }
   .header a {
     color: #666;
     display: block;
@@ -53,3 +60,38 @@ body {
     margin-top: 22px;
     padding: 0 25px 0 0;
     text-decoration: none; }
+  .header a:hover {
+    color: #fff; }
+
+.hero {
+  width: 330px;
+  height: 350px;
+  background-image: url(../images/peralta-logo.png);
+  background-repeat: no-repeat;
+  background-size: 310px;
+  background-position: center;
+  margin: 0 auto;
+  border: 10px solid #fff; }
+
+.news {
+  width: 330px;
+  height: 350px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 310px;
+  background-position: center;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  margin-top: 10px;
+  border-bottom: 3px;
+  border-bottom-color: #666; }
+
+small {
+  color: #666; }
+
+p {
+  color: #4c4c4c; }
+
+h3 {
+  text-align: center;
+  color: #FF0000; }
