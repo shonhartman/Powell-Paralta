@@ -1,0 +1,28 @@
+.footer {
+    width: $box-width;
+    height: $box-height;
+    background-color: $white;
+    margin: 0 auto;
+    border: 10px solid $white;
+    margin-top: 10px;
+
+
+  &--block-subscribe {
+    text-align: center;
+  }
+
+      input {
+        padding-right: 4em;
+        margin-bottom: 1em;
+      }
+
+        input:last-child {
+          padding-bottom: 7em;
+        }
+
+  &--subscribe-wrapper h2 {
+    background-color: $red;
+    width: 7em;
+  }
+
+}

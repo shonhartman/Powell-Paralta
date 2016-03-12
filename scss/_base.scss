@@ -2,7 +2,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-  font: 12px/1.35 helvetica_condensed,Arial,Helvetica,sans-serif;
+  font: .875em helvetica_condensed,Arial,Helvetica,sans-serif;
   color: $midgrey;
   text-align: center;
 }
@@ -17,4 +17,19 @@ body {
 
 h1 {
   font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.71429rem;
+  margin: $text-margin;
+}
+
+small {
+  color: $lightgrey;
+  font-weight: 600;
+  margin: $text-margin;
+}
+
+p {
+  margin: $text-margin;
 }

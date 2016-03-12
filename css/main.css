@@ -2,7 +2,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-  font: 12px/1.35 helvetica_condensed,Arial,Helvetica,sans-serif;
+  font: .875em helvetica_condensed,Arial,Helvetica,sans-serif;
   color: #4c4c4c;
   text-align: center; }
 
@@ -15,6 +15,18 @@ body {
 
 h1 {
   font-size: 3rem; }
+
+h2 {
+  font-size: 1.71429rem;
+  margin: 20px; }
+
+small {
+  color: #666;
+  font-weight: 600;
+  margin: 20px; }
+
+p {
+  margin: 20px; }
 
 .page {
   background-color: #4c4c4c; }
@@ -67,8 +79,8 @@ h1 {
     color: #fff; }
 
 .hero {
-  width: 330px;
-  height: 350px;
+  width: 50%;
+  height: 450px;
   background-image: url(../images/peralta-logo.png);
   background-repeat: no-repeat;
   background-size: 310px;
@@ -77,8 +89,8 @@ h1 {
   border: 10px solid #fff; }
 
 .news {
-  width: 330px;
-  height: 350px;
+  width: 50%;
+  height: 450px;
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: 310px;
@@ -101,8 +113,8 @@ h3 {
   color: #FF0000; }
 
 .gallery {
-  width: 330px;
-  height: 350px;
+  width: 50%;
+  height: 450px;
   background-image: url(../images/sk8er-1.png);
   background-repeat: no-repeat;
   background-size: 57em;
@@ -115,11 +127,11 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 54%; }
+  margin: 20px; }
 
 .shop {
-  width: 330px;
-  height: 350px;
+  width: 50%;
+  height: 450px;
   background-color: #fff;
   margin: 0 auto;
   border: 10px solid #fff;
@@ -142,3 +154,21 @@ li:nth-child(2) {
 
 li:nth-child(3) {
   background-image: url(../images/sk8-10.png); }
+
+.footer {
+  width: 50%;
+  height: 450px;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  margin-top: 10px; }
+  .footer--block-subscribe {
+    text-align: center; }
+  .footer input {
+    padding-right: 4em;
+    margin-bottom: 1em; }
+  .footer input:last-child {
+    padding-bottom: 7em; }
+  .footer--subscribe-wrapper h2 {
+    background-color: #FF0000;
+    width: 7em; }
