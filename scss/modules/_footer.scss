@@ -5,6 +5,11 @@
     margin: 0 auto;
     border: 10px solid $white;
     margin-top: 10px;
+    margin-bottom: 10px;
+
+  form {
+    margin: 0 auto;
+  }
 
 
   &--block-subscribe {
@@ -12,17 +17,24 @@
   }
 
       input {
-        padding-right: 4em;
+        padding-right: 10em;
+        margin-left: 14%;
+        padding-bottom: 1em;
         margin-bottom: 1em;
+        margin-right: 6em;
+        margin-left: 6em;
       }
 
         input:last-child {
-          padding-bottom: 7em;
+          padding-bottom: 11em;
         }
+
+
 
   &--subscribe-wrapper h2 {
     background-color: $red;
     width: 7em;
+    margin: 0 auto;
   }
 
 }

@@ -2,6 +2,7 @@
 
   text-transform: uppercase;
   margin: 0 auto;
+  display: inline-block;
 
     &--subscribe {
       text-shadow: 1em;
@@ -37,9 +38,9 @@
       text-align: center;
       background: $darkgrey;
       color: $white;
-      font-size: 12px;
-      letter-spacing: 1px;
-      padding: 1em 20rem;
+      font-size: 1.25em;
+      letter-spacing: .20em;
+      padding: 1.1% 21%;
     }
       a {
         color: $lightgrey;
@@ -56,4 +57,6 @@
 }
 
 @media screen and (min-width: 600px) {}
+
+
 @media screen and (min-width: 900px) {}
