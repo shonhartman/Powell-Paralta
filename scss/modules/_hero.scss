@@ -16,4 +16,13 @@
     background-color: $midgrey;
   }
 }
-@media screen and (min-width: 900px) {}
+@media screen and (min-width: 900px) {
+
+  .hero {
+    width: 1000px;
+    height: 350px;
+    background-image: url(../images/peralta-logo.png), url(../images/top-image.png);
+    background-position: 20px, -89px -122px;
+    background-size: 450px, 1600px;
+  }
+}

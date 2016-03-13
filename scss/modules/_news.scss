@@ -31,4 +31,12 @@
 
 
 @media screen and (min-width: 600px) {}
-@media screen and (min-width: 900px) {}
+
+@media screen and (min-width: 900px) {
+
+  .news {
+    width: 330px;
+    height: 350px;
+    float: left;
+  }
+}
