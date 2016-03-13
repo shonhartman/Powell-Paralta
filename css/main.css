@@ -29,10 +29,6 @@ small {
 p {
   margin: 20px; }
 
-@media screen and (min-width: 600px) {
-  body {
-    background-image: url(../images/bg.png); } }
-
 .page {
   background-color: #4c4c4c; }
 
@@ -42,13 +38,18 @@ p {
   background-color: #666;
   color: #fff; }
 
+@media screen and (min-width: 600px) {
+  .page {
+    background-image: url(../images/bg.jpg);
+    background-size: cover; } }
+
 .header {
   text-transform: uppercase;
   margin: 0 auto;
   display: inline-block; }
   .header--subscribe {
-    text-shadow: 1em;
-    display: none; }
+    display: none;
+    color: #666; }
   .header--social li {
     width: 60px;
     height: 60px;
@@ -84,6 +85,23 @@ p {
   .header a:hover {
     color: #fff; }
 
+@media screen and (min-width: 900px) {
+  .header--subscribe {
+    display: block; }
+  .header--social li {
+    display: inline-block;
+    background-image: none; }
+    .header--social li--nav-bar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      color: #fff;
+      font-size: 1.25em;
+      letter-spacing: .20em;
+      padding: 1.1% 21%; } }
+
 .hero {
   width: 50%;
   height: 450px;
@@ -93,6 +111,10 @@ p {
   background-position: center;
   margin: 0 auto;
   border: 10px solid #fff; }
+
+@media screen and (min-width: 600px) {
+  .hero {
+    background-color: #4c4c4c; } }
 
 .news {
   width: 50%;

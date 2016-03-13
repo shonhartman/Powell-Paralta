@@ -1,5 +1,6 @@
 .page {
   background-color: $midgrey;
+
 }
 
 .header-container {
@@ -8,3 +9,22 @@
   background-color: $lightgrey;
   color: $white;
 }
+
+@media screen and (min-width: 600px) {
+
+  .wrapper {
+
+  }
+
+
+  .page {
+    // background-color: $midgrey;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+  }
+
+
+}
+
+
+@media screen and (min-width: 900px) {}

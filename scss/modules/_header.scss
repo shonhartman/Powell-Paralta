@@ -5,8 +5,8 @@
   display: inline-block;
 
     &--subscribe {
-      text-shadow: 1em;
       display: none;
+      color: $lightgrey;
     }
     &--social {
       li {
@@ -59,4 +59,29 @@
 @media screen and (min-width: 600px) {}
 
 
-@media screen and (min-width: 900px) {}
+@media screen and (min-width: 900px) {
+  .header {
+
+    &--subscribe {
+      display: block;
+    }
+
+    &--social li {
+      display: inline-block;
+      background-image: none;
+
+      &--nav-bar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $white;
+        font-size: 1.25em;
+        letter-spacing: .20em;
+        padding: 1.1% 21%;
+      }
+
+    }
+  }
+}

@@ -34,12 +34,3 @@ small {
 p {
   margin: $text-margin;
 }
-
-@media screen and (min-width: 600px) {
-  body {
-    background-image: url(../images/bg.png);
-  }
-}
-
-
-@media screen and (min-width: 900px) {}
