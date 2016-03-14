@@ -1,15 +1,32 @@
-.gallery {
-    width: $box-width;
-    height: $box-height;
-    background-image: url(../images/sk8er-1.png);
+@mixin small-photo {
+
+  & {
+    width: 333px;
+    height: 233px;
     background-repeat: no-repeat;
-    background-size: 63em;
-    background-position: 1%;
-    margin: 0 auto;
     border: 10px solid $white;
-    margin-top: 10px;
-    clear: both;
+  }
 }
+
+@mixin mobile-photo {
+
+}
+
+.gallery {
+
+  &--item3 {
+    {
+        width: $box-width;
+        height: $box-height;
+        background-image: url(../images/sk8er-1.png);
+        background-repeat: no-repeat;
+        background-size: 63em;
+        background-position: 1%;
+        margin: 0 auto;
+        border: 10px solid $white;
+        margin-top: 10px;
+    }
+  }
 
   h1 {
     color: $white;
@@ -17,8 +34,8 @@
     text-align: center;
     padding-top: 52%;
     margin: $text-margin;
-
   }
+}
 
   @media screen and (min-width: 600px) {}
 
@@ -27,19 +44,48 @@
     .gallery {
 
         &--item1 {
-
+          @include small-photo
+          background-image: url(../images/sk8er-4.png);
+          background-position: center;
+          float: left;
         }
 
         &--item2 {
-
+          @include small-photo
+          background-image: url(../images/sk8er-3.png);
+          background-position: center;
+          float: left;
         }
 
         &--item3 {
-
+          width: 680px;
+          height: 233px;
+          background-image: url(../images/sk8er-1.png);
+          background-repeat: no-repeat;
+          border: 10px solid $white;
+          background-position: center;
+          float: left;
         }
 
         &--item4 {
-
+          width: 333px;
+          height: 489px;
+          background-image: url(../images/sk8er-2.png);
+          background-repeat: no-repeat;
+          border: 10px solid $white;
+          background-position: center;
+          float: left;
         }
+
+        h1 {
+          color: $white;
+          text-transform: uppercase;
+          text-align: center;
+          padding-top: 52%;
+          margin: $text-margin;
+          font-size: 20px;
+          background-position: center;
+
     }
   }
+}
