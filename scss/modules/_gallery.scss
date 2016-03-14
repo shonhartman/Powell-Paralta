@@ -8,6 +8,7 @@
     margin: 0 auto;
     border: 10px solid $white;
     margin-top: 10px;
+    clear: both;
 }
 
   h1 {
@@ -17,4 +18,28 @@
     padding-top: 52%;
     margin: $text-margin;
 
+  }
+
+  @media screen and (min-width: 600px) {}
+
+  @media screen and (min-width: 900px) {
+
+    .gallery {
+
+        &--item1 {
+
+        }
+
+        &--item2 {
+
+        }
+
+        &--item3 {
+
+        }
+
+        &--item4 {
+
+        }
+    }
   }

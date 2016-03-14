@@ -8,8 +8,6 @@
   margin: 0 auto;
   border: 10px solid $white;
   margin-top: 10px;
-  border-bottom: 13px;
-  border-bottom-color: $red;
 
 }
 
@@ -36,7 +34,15 @@
 
   .news {
     width: 330px;
-    height: 350px;
     float: left;
-  }
+
+
+    &--2 {
+      width: 330px;
+      float: right;
+      background-color: $white;
+      margin: 0 auto;
+    }
+
+    }
 }
