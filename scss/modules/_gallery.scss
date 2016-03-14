@@ -15,7 +15,7 @@
 .gallery {
 
   &--item3 {
-    {
+
         width: $box-width;
         height: $box-height;
         background-image: url(../images/sk8er-1.png);
@@ -25,7 +25,7 @@
         margin: 0 auto;
         border: 10px solid $white;
         margin-top: 10px;
-    }
+
   }
 
   h1 {
@@ -46,14 +46,14 @@
         &--item1 {
           @include small-photo
           background-image: url(../images/sk8er-4.png);
-          background-position: center;
+          background-position: -114px -12px;
           float: left;
         }
 
         &--item2 {
           @include small-photo
           background-image: url(../images/sk8er-3.png);
-          background-position: center;
+          background-position: -7px -4px;
           float: left;
         }
 
@@ -63,7 +63,8 @@
           background-image: url(../images/sk8er-1.png);
           background-repeat: no-repeat;
           border: 10px solid $white;
-          background-position: center;
+          background-size: 763px;
+          background-position: -5px -76px;
           float: left;
         }
 
@@ -73,7 +74,7 @@
           background-image: url(../images/sk8er-2.png);
           background-repeat: no-repeat;
           border: 10px solid $white;
-          background-position: center;
+          background-position: -387px -6px;
           float: left;
         }
 
