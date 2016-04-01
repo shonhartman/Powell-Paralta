@@ -1,6 +1,5 @@
 .news {
-  width: $box-width;
-  height: $box-height;
+  width: $box-width-phone;
   background-color: $white;
   background-repeat: no-repeat;
   background-size: 310px;
@@ -8,6 +7,20 @@
   margin: 0 auto;
   border: 10px solid $white;
   margin-top: 10px;
+
+  div {
+    display: none;
+  }
+
+  div:first-child {
+    display: block;
+  }
+
+  @media screen and (min-width: 800px) {
+    div {
+      display: block;
+    }
+  }
 
 }
 
@@ -33,16 +46,22 @@
 @media screen and (min-width: 900px) {
 
   .news {
-    width: 330px;
-    float: left;
 
+    width: 1000px;
+    height: $box-height;
 
-    &--2 {
+    & > div {
       width: 330px;
-      float: right;
-      background-color: $white;
-      margin: 0 auto;
+      float: left;
     }
+
+
+    // &--2 {
+    //   width: 330px;
+    //   float: right;
+    //   background-color: $white;
+    //   margin: 0 auto;
+    // }
 
     }
 }

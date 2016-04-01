@@ -1,5 +1,5 @@
 .hero {
-  width: $box-width;
+  width: $box-width-phone;
   height: $box-height;
   background-image: url(../images/peralta-logo.png);
   background-repeat: no-repeat;
@@ -7,6 +7,10 @@
   background-position: center;
   margin: 0 auto;
   border: 10px solid $white;
+
+  @media screen and (min-width: 800px) {
+    width: $box-width-large;
+  }
 
 }
 

@@ -38,9 +38,14 @@
       text-align: center;
       background: $darkgrey;
       color: $white;
-      font-size: 1.25em;
       letter-spacing: .20em;
-      padding: 1.1% 21%;
+      font-size: .8rem;
+
+      @media screen and (min-width: 800px) {
+        // tweak font size based on device
+        font-size: 1.25em;
+        padding: 1.1% 21%;
+      }
     }
       a {
         color: $lightgrey;

@@ -14,9 +14,17 @@
 
 .gallery {
 
+  margin: 0 auto;
+
+  &--item1, &--item2, &--item4 {
+    display: none;
+  }
+
+
+
   &--item3 {
 
-        width: $box-width;
+        width: $box-width-phone;
         height: $box-height;
         background-image: url(../images/sk8er-1.png);
         background-repeat: no-repeat;
@@ -25,6 +33,10 @@
         margin: 0 auto;
         border: 10px solid $white;
         margin-top: 10px;
+
+        @media screen and (min-width: 800px) {
+          width: $box-width-large;
+        }
 
   }
 
@@ -41,13 +53,20 @@
 
   @media screen and (min-width: 900px) {
 
+
     .gallery {
+        width: 1100px;
+
+        &--item1, &--item2, &--item4 {
+          display: block;
+        }
 
         &--item1 {
           @include small-photo
           background-image: url(../images/sk8er-4.png);
           background-position: -114px -12px;
           float: left;
+
         }
 
         &--item2 {
@@ -69,13 +88,13 @@
         }
 
         &--item4 {
-          width: 333px;
+          width: 280px;
           height: 489px;
           background-image: url(../images/sk8er-2.png);
           background-repeat: no-repeat;
           border: 10px solid $white;
           background-position: -387px -6px;
-          float: left;
+          float: right;
         }
 
         h1 {
