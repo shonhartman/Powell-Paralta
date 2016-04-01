@@ -117,13 +117,18 @@ p {
 
 .news {
   width: 80%;
-  background-color: #fff;
   background-repeat: no-repeat;
-  background-size: 310px;
   background-position: center;
   margin: 0 auto;
-  border: 10px solid #fff;
   margin-top: 10px; }
+  .news--1, .news--2, .news--3 {
+    border: 10px solid #fff;
+    background-color: #fff; }
+    @media screen and (min-width: 800px) {
+      .news--1, .news--2, .news--3 {
+        margin-right: 10px;
+        max-width: 30.33%;
+        max-height: 380px; } }
   .news div {
     display: none; }
   .news div:first-child {
@@ -143,7 +148,7 @@ h3 {
   text-align: center;
   color: #FF0000; }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   .news {
     width: 1000px;
     height: 450px; }

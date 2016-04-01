@@ -1,10 +1,12 @@
 @mixin small-photo {
 
   & {
-    width: 333px;
+    width: 30%;
     height: 233px;
     background-repeat: no-repeat;
     border: 10px solid $white;
+    max-width: $max-width;
+    max-height: $max-height;
   }
 }
 
@@ -18,6 +20,7 @@
 
   &--item1, &--item2, &--item4 {
     display: none;
+
   }
 
 
@@ -51,7 +54,7 @@
 
   @media screen and (min-width: 600px) {}
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 800px) {
 
 
     .gallery {
@@ -66,7 +69,6 @@
           background-image: url(../images/sk8er-4.png);
           background-position: -114px -12px;
           float: left;
-
         }
 
         &--item2 {
